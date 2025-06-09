@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Fastlane Day Template</title>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/fastlaneday.css">
+</head>
+<body>
+    <a href="../index.html">Home</a>
+    <a href="#" onclick="history.back()">Previous Page</a>
+    <div class="theme-switch-wrapper">
+      <span>Light/Dark</span>
+      <div class="light-switch" id="theme-toggle"></div>
+    </div>
+  </nav>
+
+  <div class="container">
+    <h1>Insert Day Title Here</h1>
+    <p><em>Insert Date Here</em></p>
+    <p>Insert Paragraph Here</p>
+    <img src="Insert Image URL Here" alt="Insert Image Description Here" />
+    <p>Insert Paragraph Here</p>
+    <p><a href="../50fastlane.html">← Back to all entries</a></p>
+
+    <div class="comment-section" id="comments">
+      <h2>Comments</h2>
+      <form class="comment-form" id="comment-form">
+        <textarea id="comment-input" placeholder="Write your comment..."></textarea>
+        <button type="submit">Submit</button>
+      </form>
+      <div id="comment-list"></div>
+  
+    </div>
+  </div>
+  <!-- Firebase SDKs -->
+  <script src="https://www.gstatic.com/firebasejs/10.9.0/firebase-app.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/10.9.0/firebase-firestore.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/10.9.0/firebase-auth.js"></script>
+  <script src="js/day.js"></script>
+
+</body>
+</html>
+
